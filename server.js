@@ -43,7 +43,7 @@ const server = net.createServer((socket) => {
                 const attendanceData = {
                     deviceSerialNumber: deviceSerialNumber,
                     timestamp: new Date().toISOString(),
-                    employeeCode: "12345",  // Replace with actual employee code from the device data
+                    employeeCode: "202501201",  // Replace with actual employee code from the device data
                     verifyMode: "Fingerprint",  // Replace with actual verify mode
                 };
                 console.log("🚀 ~ socket.on ~ attendanceData:", attendanceData)
